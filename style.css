@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Libertinus Mono", monospace;
+}
+body{
+    background-color: rgba(170, 182, 109, 0.552);
+    color: rgb(190, 195, 199);
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: blue;
+    border-radius: 12px; 
+    border: 1;
+    margin: 30px;
+    padding-top: 20px;
+    position: sticky;
+    top: 20px;
+ 
+}
+ul{
+    display: flex;
+
+}
+
+li{
+    margin: 15px 30px;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(182, 190, 196);
+}
+a:hover{
+    color: rgb(213, 225, 123);
+    border: 2px solid bisque;
+    border-radius: 20px;
+    padding: 6px 20px;
+    background-color: aliceblue;
+    transition: 2s ease-in-out;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.col h1,h2{
+    text-align: center;
+}
+
+span{
+    color: azure;
+    font-size: x-large;
+    text-shadow: 4px 5px 8px rgb(187, 177, 177) ;
+}
+.c1{
+    padding-bottom: 55px;
+}
+.download-btn{
+    background-color: rgba(48, 198, 103, 0.775);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
